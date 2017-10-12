@@ -1,0 +1,75 @@
+@import url("main.css");
+
+.projects {
+	width: 100%;
+}
+
+main {
+	padding: 0;
+}
+
+article {
+	border-bottom: 1px solid lightgray;
+	box-sizing: border-box;
+	padding: 0 30px;
+}
+
+article:last-child {
+	border-bottom: none;
+}
+
+.container {
+	max-width: 1000px;
+}
+
+@media screen and (max-width: 480px) {
+	figure {
+		margin-bottom: 36px;
+	}
+
+	.moment,
+	.map {
+		padding-top: 60px;
+	}
+
+	.container article {
+		padding-bottom: 50px;
+	}
+}
+
+@media screen and (min-width: 481px) {
+	article {
+		margin-bottom: 60px;
+	}
+
+	article:last-child {
+		margin-bottom: 0;
+	}
+	figure {
+		margin-bottom: 37px;
+	}
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+	main {
+		padding-top: 70px;
+	}
+
+	article p {
+		padding-bottom: 50px;
+	}
+}
+
+@media screen and (min-width: 769px) {
+	figure {
+		margin-bottom: 37px;
+	}
+
+	main {
+		padding: 105px 0 0 0;
+	}
+
+	article p {
+		padding: 0 80px 50px;	
+	}
+}

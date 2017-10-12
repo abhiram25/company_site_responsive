@@ -1,0 +1,68 @@
+@import url("main.css");
+
+.team-container p {
+	text-align: justify;
+}
+
+a {
+	text-decoration: none;
+}
+
+.team-members li {
+	display: inline-block;
+	text-align: center;
+}
+
+.team-members li a {
+	color: #3e59b2;
+}
+
+
+.team-members a {
+	font-size: 24px;
+}
+
+.team-members img {
+	margin: 0 auto;
+	display: block;
+}
+
+.container {
+	max-width: 1000px;
+}
+
+@media screen and (max-width: 480px) {
+	main {
+		padding: 0 0 116px;
+	}
+
+	main p {
+		padding: 0 30px;
+	}
+
+	.team-members {
+		padding-top: 55px;
+	}
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+	.team-members {
+		padding: 120px 0 0;
+	}
+
+	 article {
+    padding: 0 40px 50px 40px;
+  }
+}
+
+@media screen and (max-width: 875px) {
+
+	.team-members li {
+		width: 48%;
+		padding-bottom: 30px;
+	}
+
+	.team-members {
+		padding-bottom: 50px;
+	}
+}
